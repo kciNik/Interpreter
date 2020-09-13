@@ -1,0 +1,127 @@
+function Rrot
+dir() <= dir() + 1
+if dir() in max() do function
+dir() <= 0
+end
+end
+function Lrot
+dir() <= dir() - 1
+if dir() less min() do function
+dir() <= 3
+end
+end
+function main
+exit() <= EXIT
+max() <= 4
+min() <= 0
+dir() <= 0
+res() <= 0
+res(1) <= 1
+find() <= UNDEF
+s() <= true
+cont() <= true
+e() <= false
+from res() to res(1) do function
+if 0 in dir() do function
+if go right do function
+s() <= false
+do Rrot
+end
+if s() do function
+if pick right do function
+go right
+drop left
+s() <= false
+do Rrot
+end
+end
+if s() do function
+if -go up do function
+find <= look right
+do Lrot
+end
+end
+cont() <= false
+end
+x() <= 1 in dir()
+if x() & cont() do function
+if go down do function
+s() <= false
+do Rrot
+end
+if s() do function
+if pick down do function
+go down
+drop up
+s() <= false
+do Rrot
+end
+end
+if s() do function
+if -go right do function
+do Lrot
+end
+end
+cont() <= false
+end
+x() <= 2 in dir()
+if x() & cont() do function
+if go left do function
+s() <= false
+do Rrot
+end
+if s() do function
+if pick left do function
+go left
+drop right
+s() <= false
+do Rrot
+end
+end
+if s() do function
+if -go down do function
+do Lrot
+end
+end
+cont() <= false
+end
+x() <= 3 in dir()
+if x() & cont() do function
+if go up do function
+s() <= false
+do Rrot
+end
+if s() do function
+if pick up do function
+go up
+drop down
+s() <= false
+do Rrot
+end
+end
+if s() do function
+if -go left do function
+do Lrot
+end
+end
+end
+s() <= true
+cont() <= true
+find <= look up
+if find() in exit() do function
+res() <= 1
+end
+find <= look down
+if find() in exit() do function
+res() <= 1
+end
+find <= look right
+if find() in exit() do function
+res() <= 1
+end
+find <= look left
+if find() in exit() do function
+res() <= 1
+end
+end
+end

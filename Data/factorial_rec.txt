@@ -1,0 +1,17 @@
+function func
+x(1) <= 1
+if 0 less x(1,1,2) do function 
+from 1 to x(1,1,2) with step 1 do function
+x() <= x() + x(12)
+end
+x(12) <= x()
+x(1,1,2) <= x(1,1,2) - 1
+do func
+end
+end
+function main
+x() <= 1
+x(12) <= 1
+x(1,1,2) <= 5
+do func
+end

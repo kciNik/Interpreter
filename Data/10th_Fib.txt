@@ -1,0 +1,19 @@
+function fib
+if 1 less x(2) do function
+if 2 less x(2) do function
+x() <= x(3) + x(1)
+x(2) <= x(2) - 1
+x(3) <= do fib
+x(2) <= x(2) - 1
+x(1) <= do fib
+end
+end
+x()
+end
+function main
+x() <= 1
+x(1) <= 1
+x(2) <= 10
+x(3) <= 1
+do fib
+end
